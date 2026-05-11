@@ -67,26 +67,15 @@ opencv-book-code/
 
 ## 開發環境
 
-完整安裝步驟請參閱書中第 0 章與第 1 章。簡要流程：
+本書以 Anaconda 管理 Python 環境，依章節需求建立不同的獨立環境（避免套件衝突）。**完整安裝步驟、套件相依性說明、各環境用途請參閱書中對應章節**：
 
-```bash
-# 建立獨立 Python 環境（建議用 Anaconda）
-conda create -n opencv-book python=3.10
-conda activate opencv-book
+- **第 0 章**：Anaconda 安裝、JupyterLab 設定、第一個 Python 環境建立
+- **第 1 章**：OpenCV 基礎環境的套件安裝（`opencv-python`、`matplotlib` 等）
+- **第 21 章**：人臉辨識所需的 **`opencv-contrib-python` 環境**（含 `cv2.face` 模組）
+- **第 22 章**：物件偵測所需的 **`ultralytics` (YOLOv8) 環境**
+- **第 23 章**：物件追蹤所需的**混合環境**（含 `opencv-contrib-python` + `ultralytics` 兩者並存的安裝順序處理）
 
-# 安裝核心套件
-pip install opencv-python numpy matplotlib jupyterlab
-```
-
-後半段 AI 章節（第 19 章起）會用到 `opencv-contrib-python` 與 `Ultralytics YOLO` 套件，因為與前段環境有相依性衝突，建議另建獨立環境：
-
-```bash
-conda create -n opencv-book-ai python=3.10
-conda activate opencv-book-ai
-pip install opencv-contrib-python ultralytics
-```
-
-各章節開頭都會註明所需環境，相關步驟在書中也有完整說明。
+> ⚠️ AI 章節的 3 個環境（`opencv-contrib-python` / `ultralytics` / 兩者並存）各自的相依性處理略有不同，請依各章節 Step-by-step 指示建立，不要自行合併安裝。
 
 ---
 
