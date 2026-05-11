@@ -107,7 +107,7 @@ def main():
     print("=== Pet Monitor ===")
     model = YOLO("yolov8n.pt")
     cap = cv2.VideoCapture(0)
-    # cap = cv2.VideoCapture("kitchen_cat.mp4")  # 影片測試
+    # cap = cv2.VideoCapture("../sample/video/kitchen_cat.mp4")  # 影片測試
     roi = get_forbidden_zone(cap)
     if roi is None:
         cap.release()
