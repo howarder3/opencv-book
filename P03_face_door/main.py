@@ -125,7 +125,7 @@ def main():
     database = build_database(detector, recognizer)
     print(f"資料庫載入完成，共 {len(database)} 人")
     cap = cv2.VideoCapture(0)
-    # cap = cv2.VideoCapture("me.mp4")  # 影片測試
+    # cap = cv2.VideoCapture("../sample/video/me.mp4")  # 影片測試
     run_door_access(cap, detector, recognizer, database)
 
 
