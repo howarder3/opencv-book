@@ -71,7 +71,7 @@ opencv-book-code/
 
 ```bash
 # 建立獨立 Python 環境（建議用 Anaconda）
-conda create -n opencv-book python=3.11
+conda create -n opencv-book python=3.10
 conda activate opencv-book
 
 # 安裝核心套件
@@ -81,7 +81,7 @@ pip install opencv-python numpy matplotlib jupyterlab
 後半段 AI 章節（第 19 章起）會用到 `opencv-contrib-python` 與 `Ultralytics YOLO` 套件，因為與前段環境有相依性衝突，建議另建獨立環境：
 
 ```bash
-conda create -n opencv-book-ai python=3.11
+conda create -n opencv-book-ai python=3.10
 conda activate opencv-book-ai
 pip install opencv-contrib-python ultralytics
 ```
