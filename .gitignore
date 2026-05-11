@@ -33,12 +33,11 @@ Thumbs.db
 models/
 weights/
 
-# 大型素材原始檔（如有需要再個別 unignore）
-*.mp4
-*.avi
-*.mov
-*.webm
-*.gif
+# Runtime output 影片（ipynb 跑出來的，不打包）
+output_*.avi
+output_*.mp4
+output_negative.*
+output_contours.*
 
 # 暫存 staging 區
 _staging/
