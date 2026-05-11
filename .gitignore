@@ -48,3 +48,13 @@ _staging/
 *.tmp
 notes.md
 TODO.md
+
+# 各章節 runtime artifacts (跑 ipynb 時產生，不打包進 repo)
+*.pkl
+face_database.pkl
+trainer/
+cat.png
+out.jpg
+output_*.avi
+output_*.mp4
+result.jpg
