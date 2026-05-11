@@ -1,0 +1,32 @@
+MIT License
+
+Copyright (c) 2026 翁健豪 (Howard Weng)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+附註（與書中「授權與使用提醒」一致）：
+
+- 本範例程式碼僅供本書讀者學習練習使用。
+- 範例檔內含的第三方軟體、預訓練模型與媒體素材，其著作權皆屬原作者所有，
+  使用前請參照各自的授權條款。
+- 書中的自動化遊戲專案（專案 01、02）僅供技術學習示範。若將相關技術應用
+  至其他遊戲（線上、手機等各類遊戲），可能違反該遊戲的服務條款而導致帳號
+  被封鎖等後果，相關責任請使用者自行承擔。
