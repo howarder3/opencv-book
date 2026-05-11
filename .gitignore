@@ -1,0 +1,50 @@
+# 防污染：明確排除「髒」來源的 noise
+
+# Jupyter 自動產生
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+.venv/
+venv/
+env/
+
+# 系統
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 模型檔案（書內會引導讀者下載，不打包進 repo）
+*.caffemodel
+*.prototxt
+*.weights
+*.pb
+*.onnx
+*.xml
+*.pt
+*.h5
+models/
+weights/
+
+# 大型素材原始檔（如有需要再個別 unignore）
+*.mp4
+*.avi
+*.mov
+*.webm
+*.gif
+
+# 暫存 staging 區
+_staging/
+
+# 個人 / 開發 only
+*.bak
+*.tmp
+notes.md
+TODO.md
