@@ -18,7 +18,7 @@
 | 第 5 章 | OpenCV 影像繪製與標註 | `ch05-OpenCV 影像繪製與標註.ipynb` |
 | 第 6 章 | OpenCV 影像數學運算 | `ch06-OpenCV 影像數學運算.ipynb` |
 | 第 7 章 | OpenCV 影像模糊、銳化與馬賽克 | `ch07-OpenCV 影像模糊、銳化與馬賽克.ipynb` |
-| 第 8 章 | OpenCV 影像色彩光影調校 | `ch08-OpenCV 影像色彩光影調校.ipynb` |
+| 第 8 章 | OpenCV 影像色彩與光影調校 | `ch08-OpenCV 影像色彩與光影調校.ipynb` |
 | 第 9 章 | OpenCV 影像二值化 | `ch09-OpenCV 影像二值化.ipynb` |
 | 第 10 章 | OpenCV 形態學運算 | `ch10-OpenCV 形態學運算.ipynb` |
 | 第 11 章 | OpenCV 邊緣偵測 | `ch11-OpenCV 邊緣偵測.ipynb` |
@@ -39,11 +39,11 @@
 
 | 專案 | 主題 | 資料夾 |
 |---|---|---|
-| 專案 01 | 讓電腦自己玩遊戲 — 挑戰 Chrome 小恐龍 | `P01_dino_cv_auto/` |
-| 專案 02 | 讓電腦看懂遊戲 — 自動玩 2048 | `P02_auto_2048_solver/` |
-| 專案 03 | 自製智慧人臉門禁 | `P03_face_door/` |
-| 專案 04 | 自製智慧寵物攝影機 | `P04_pet_monitor/` |
-| 專案 05 | 動手做自己的簡易版 Photoshop | `P05_mini_photoshop/` |
+| 專案 01 | 讓電腦自己玩遊戲！挑戰 Chrome 小恐龍 | `P01_dino_cv_auto/` |
+| 專案 02 | 當電腦學會「看懂」遊戲：自動玩 2048 | `P02_auto_2048_solver/` |
+| 專案 03 | 刷臉就開門？自製居家智慧人臉門禁 | `P03_face_door/` |
+| 專案 04 | 貓咪偷進廚房怎麼辦？自製智慧寵物攝影機 | `P04_pet_monitor/` |
+| 專案 05 | 動手做自己的簡易版 Photoshop！ | `P05_mini_photoshop/` |
 
 ---
 
@@ -54,11 +54,11 @@ opencv-book-code/
 ├── ch00-XXX.ipynb 到 ch23-XXX.ipynb  # 各章對應 Jupyter Notebook（部分純概念章節除外）
 ├── ch20-XXX_模型下載.ipynb            # 第 20 章預訓練模型下載工具
 ├── ch21-XXX_模型下載.ipynb            # 第 21 章預訓練模型下載工具
-├── P01_dino_cv_auto/                  # 專案 01：Chrome 小恐龍
-├── P02_auto_2048_solver/              # 專案 02：2048 自動破關
-├── P03_face_door/                     # 專案 03：人臉門禁
-├── P04_pet_monitor/                   # 專案 04：寵物攝影機
-├── P05_mini_photoshop/                # 專案 05：迷你修圖軟體
+├── P01_dino_cv_auto/                  # 專案 01：讓電腦自己玩遊戲！挑戰 Chrome 小恐龍
+├── P02_auto_2048_solver/              # 專案 02：當電腦學會「看懂」遊戲：自動玩 2048
+├── P03_face_door/                     # 專案 03：刷臉就開門？自製居家智慧人臉門禁
+├── P04_pet_monitor/                   # 專案 04：貓咪偷進廚房怎麼辦？自製智慧寵物攝影機
+├── P05_mini_photoshop/                # 專案 05：動手做自己的簡易版 Photoshop！
 ├── sample/                            # 全書跨章節共用的範例影像 / 影片素材
 └── opencv_tools.py                    # 第 1 章封裝、全書通用的影像顯示工具
 ```
