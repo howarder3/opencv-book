@@ -1,6 +1,6 @@
-# 動手做 OpenCV！— 範例程式碼
+# OpenCV 全攻略！— 範例程式碼
 
-《**動手做 OpenCV！Python 影像處理 × AI 視覺辨識 × 5 大生活實戰專案**》（旗標科技，2026）的全書範例程式碼。
+《**OpenCV 全攻略！AI 影像辨識 × 電腦視覺實戰手冊**》（旗標科技，2026）的全書範例程式碼。
 
 📚 **書籍專頁**（含勘誤、補充與留言交流）：[wongwongnotes.com/opencv-book/](https://wongwongnotes.com/opencv-book/)
 
