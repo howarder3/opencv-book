@@ -97,7 +97,7 @@ def best_move(grid):
 # ── 模板辨識 ──
 
 def load_templates(template_dir):
-    # 載入 assets/ 中所有純數字命名的圖片，以數字值為 key 存入字典
+    # 載入 assets/ 中所有純數字命名的影像，以數字值為 key 存入字典
     templates = {}
     for filename in sorted(os.listdir(template_dir)):
         name = filename.split(".")[0]

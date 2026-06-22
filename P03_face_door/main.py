@@ -26,7 +26,7 @@ def send_telegram_alert(message):
 
 def detect_faces(img, detector):
     h, w = img.shape[:2]
-    detector.setInputSize((w, h))  # 每次偵測前需同步圖片尺寸
+    detector.setInputSize((w, h))  # 每次偵測前需同步影像尺寸
     _, faces = detector.detect(img)
     return faces
 

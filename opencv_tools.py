@@ -4,14 +4,14 @@ import matplotlib.pyplot as plt
 
 
 class opencv_tools(object):
-    # 封裝 1-1 利用 matplotlib 顯示圖片
+    # 封裝 1-1 利用 matplotlib 顯示影像
     @staticmethod
     def show_img_by_matplotlib(img):
         image_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         plt.imshow(image_rgb)
         plt.show()
         
-    # 封裝 1-4 利用 OpenCV 內建的函式顯示圖片
+    # 封裝 1-4 利用 OpenCV 內建的函式顯示影像
     @staticmethod
     def show_img_by_opencv(img):
         window_name = "Image window"
