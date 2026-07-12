@@ -1,4 +1,4 @@
 opencv-python
+mss
 pyautogui
-pillow
 numpy
